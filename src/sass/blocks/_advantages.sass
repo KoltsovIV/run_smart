@@ -1,0 +1,40 @@
+.advantages
+    text-align: center
+    background: #F6F6F6
+    padding: 70px 0 65px 0
+    &__items
+        margin-top: 60px
+        display: flex
+        justify-content: space-between
+    &__item
+        width: 260px
+        font-weight: 300
+        font-size: 14px
+        color: #0D0D0D
+        span
+            display: block
+            font-weight: 700
+            font-size: 18px
+            margin: 35px 0 20px 0
+        a
+            color: #FF0000
+            &:hover
+                color: $main_color
+        
+@media (max-width: 921.5px)
+    .advantages
+        padding: 50px 0 40px 0
+        &__item
+            width: 200px
+
+@media (max-width: 767.5px)
+    .advantages
+        &__items
+            flex-direction: column
+            align-items: center
+            margin-top: 20px
+        &__item
+            width: 270px
+            margin-top: 30px
+            span
+                margin: 20px 0 15px 0

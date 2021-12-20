@@ -1,0 +1,76 @@
+.promo
+    min-height: 650px
+    padding: 21px 0 93px 0
+    background: url(../images/bg/1st_screen.png) center (center/cover) no-repeat
+    &__wrapper
+        display: flex
+        flex-direction: column
+        align-items: flex-end
+        margin-top: 90px
+    &__header
+        color: #fff
+        text-transform: uppercase
+        font-weight: 700
+        font-size: 42px
+        line-height: 42px
+    &__subheader
+            color: #fff
+            text-transform: uppercase
+            font-weight: 500
+            font-size: 24px
+    &__icons
+        width: 424px
+        display: flex
+        justify-content: space-between
+        margin-top: 60px       
+    &__icon
+        width: 108px
+        text-align: center
+        color: #fff
+        font-weight: 500
+        font-size: 14px
+        img
+            display: block
+            margin: 0 auto
+            margin-bottom: 20px
+    &__link
+        margin-top: 18px
+        font-weight: 500
+        font-size: 16px
+        color: #fff
+        a            
+            color: #fff
+            text-transform: uppercase
+            text-decoration: underline
+        
+@media (max-width: 921.5px)
+    .promo
+        min-height: 250px
+        padding: 21px 0 60px 0
+        &__wrapper
+            align-items: center
+            text-align: center
+            margin-top: 60px
+        &__icons
+            margin-top: 40px
+
+@media (max-width: 767.5px)
+    .promo
+        &__header
+            font-size: 35px
+            line-height: 35px
+        &__subheader
+            font-size: 20px
+
+@media (max-width: 575.5px)
+    .promo
+        &__icons
+            width: 300px
+        &__icon
+           font-size: 11px
+           img
+                max-height: 35px
+        &__header
+            font-size: 24px
+        &__subheader
+            font-size: 16px
